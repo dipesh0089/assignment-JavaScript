@@ -1,0 +1,133 @@
+
+
+1)  What is JavaScript? 
+
+   Ans:- avaScript is a dynamic, interpreted programming language primarily used for adding interactivity and dynamic functionality to web pages.
+
+
+2)  What is the use of isNaN function?
+
+   Ans:- The isNaN() function is used to determine whether a given value is NaN (Not a Number) in JavaScript. It returns true if the value passed 
+        to it is NaN, and false otherwise. This function is useful when dealing with mathematical operations where a calculation may result in 
+        NaN, helping to prevent errors and unexpected behavior in code.
+
+
+3)  What is negative Infinity?
+
+   Ans:- In JavaScript, negative Infinity is a special numeric value that represents the negative infinity. It is a value that is smaller than 
+        any other number, including negative numbers.
+
+
+4)  Which company developed JavaScript?
+
+   Ans:- JavaScript developed by "Netscape".
+
+
+5)  What are undeclared and undefined variables?
+
+   Ans:- Undeclared variables are those that have not been declared or defined in the current scope, while undefined variables are those that 
+        have been declared but not given a value.
+
+
+6)  Write the code for adding new elements dynamically? 
+ 
+
+   Ans:- The createElement() method in JavaScript can be used to create new items dynamically.7)
+
+
+7)  What is the difference between ViewState and SessionState?
+
+
+   Ans:- Session state is saved on the server, ViewState is saved in the page.
+
+
+8)  What is === operator?
+
+   Ans:- The === operator is a strict equality operator in JavaScript. It is used to compare two values to check if they are equal in both 
+         value and data type. The operator returns a Boolean value of true if the values are equal and have the same data type, and false 
+         if they are not.
+         Ex.  1===1   would return true.
+              1==='1' would return false.
+
+
+9)  How can the style/class of an element be changed?
+   Ans:- Another way to alter the style of an element is by changing its class attribute. class is a reserved word in JavaScript, so in order
+         to access the element's class, you use element. className .
+         Changing the style directly:
+                                     element = document.getElementById('example');
+                                     element.style.color = 'red';
+                                     element.style.backgroundColor = 'yellow';
+
+        Changing the class:
+                            element = document.getElementById('example');
+                            element.classList.add('new-class');
+                            element.classList.remove('old-class');
+
+
+10)  What are all the looping structures in JavaScript? 
+
+   Ans:- JavaScript supports different kinds of loops:
+
+         for - loops through a block of code a number of times.
+
+         for/in - loops through the properties of an object.
+
+         for/of - loops through the values of an iterable object.
+
+         while - loops through a block of code while a specified condition is true.
+
+
+
+12)  How can you convert the string of any base to an integer in JavaScript?
+   
+   Ans:- To convert a string to an integer parseInt(), Number(), and Unary operator(+) function is used in javascript. 
+
+
+
+13)  What is the function of the delete operator?
+
+   Ans:- In JavaScript, the delete operator is used to delete an object's property or an array element.
+         syntax: Delete object property:->
+                                           delete objectName.propertyName;
+
+                 Delete array element:-> 
+                                          delete arrayName[index];
+
+
+14)  What are all the types of Pop up boxes available in JavaScript?
+
+   Ans- JavaScript has three kind of popup boxes:
+
+        Alert box, Confirm box, and Prompt box.
+
+
+15) What is the use of Void (0)?
+
+   Ans:- It is used to prevent any side effects caused while inserting an expression in a web page.
+
+
+
+16)  How can a page be forced to load another page in JavaScript?
+
+   Ans:- It is used to prevent any side effects caused while inserting an expression in a web page.
+
+
+
+17)  What are the disadvantages of using innerHTML in JavaScript?
+   
+   Ans:- Disadvantages of innerHTML
+          Event handlers attached to any DOM element are preserved.
+          Replacement is done everywhere.
+          It is not possible to append innerHTML.
+          Breaks the document.
+          Used for Cross-site Scripting.
+ 
+ 
+
+
+
+
+
+
+
+
